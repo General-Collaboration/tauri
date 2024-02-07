@@ -2,12 +2,21 @@
   "tag": "beta",
   "changes": [
     ".changes/beta.md",
+    ".changes/cli-plugin-android-init.md",
     ".changes/fix-codegen-rerun-if-changed.md",
+    ".changes/fix-config-arg.md",
+    ".changes/fix-invoke-devtools-by-hotkey.md",
+    ".changes/fix-migrate-updater.md",
     ".changes/fix-process-ipc-message-fn.md",
     ".changes/fix-rewrite-schema.md",
+    ".changes/fix-tauri-build-license-field.md",
     ".changes/fix-tauri-build-unix.md",
+    ".changes/fix-webview-close.md",
     ".changes/refactor-capabilities-schema.md",
     ".changes/rerun-if-permission-created.md",
+    ".changes/schema_str.md",
+    ".changes/tauri-error-sync.md",
+    ".changes/tauri-scope-object-error-sync.md",
     ".changes/update-plugin-template.md"
   ]
 }

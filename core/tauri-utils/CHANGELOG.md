@@ -1,5 +1,11 @@
 # Changelog
 
+## \[2.0.0-beta.2]
+
+### Bug Fixes
+
+- [`ae0fe47c`](https://www.github.com/tauri-apps/tauri/commit/ae0fe47c4c35fa87c77acf42af32ef3f0615cb08)([#8774](https://www.github.com/tauri-apps/tauri/pull/8774)) Fix compile error when `tauri.conf.json` had `bundle > license` set.
+
 ## \[2.0.0-beta.1]
 
 ### Enhancements

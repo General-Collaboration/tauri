@@ -1,5 +1,25 @@
 # Changelog
 
+## \[2.0.0-beta.3]
+
+### Bug Fixes
+
+- [`8751c329`](https://www.github.com/tauri-apps/tauri/commit/8751c3299f2b7229c6108aa37dedf1dc5edb3e5c)([#8793](https://www.github.com/tauri-apps/tauri/pull/8793)) Fix invoking toggle devtools by hotkey.
+- [`bd73ab0a`](https://www.github.com/tauri-apps/tauri/commit/bd73ab0a1adcf648e38d579b92515dababf34993)([#8766](https://www.github.com/tauri-apps/tauri/pull/8766)) When using the multiwebview mode, properly remove the webview from memory on `Webview::close`.
+- [`2e6db908`](https://www.github.com/tauri-apps/tauri/commit/2e6db908d7b3a2c928c46b0ad9ccf9ec55a29480)([#8777](https://www.github.com/tauri-apps/tauri/pull/8777)) Fix regression in `tauri::Error` not being `Sync`.
+
+### Dependencies
+
+- Upgraded to `tauri-utils@2.0.0-beta.2`
+- Upgraded to `tauri-build@2.0.0-beta.2`
+- Upgraded to `tauri-runtime@2.0.0-beta.2`
+- Upgraded to `tauri-runtime-wry@2.0.0-beta.2`
+- Upgraded to `tauri-macros@2.0.0-beta.2`
+
+### Breaking Changes
+
+- [`2e6db908`](https://www.github.com/tauri-apps/tauri/commit/2e6db908d7b3a2c928c46b0ad9ccf9ec55a29480)([#8777](https://www.github.com/tauri-apps/tauri/pull/8777)) Require `ScopeObject::Error` to be `Sync` as well.
+
 ## \[2.0.0-beta.2]
 
 ### Bug Fixes

@@ -1,5 +1,16 @@
 # Changelog
 
+## \[2.0.0-beta.2]
+
+### Bug Fixes
+
+- [`19fb5f0b`](https://www.github.com/tauri-apps/tauri/commit/19fb5f0b20479885bf8bc4fdd8c431052420191d)([#8782](https://www.github.com/tauri-apps/tauri/pull/8782)) Fix generating invalid schema files.
+
+### Dependencies
+
+- Upgraded to `tauri-utils@2.0.0-beta.2`
+- Upgraded to `tauri-codegen@2.0.0-beta.2`
+
 ## \[2.0.0-beta.1]
 
 ### Enhancements
